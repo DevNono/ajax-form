@@ -1,3 +1,3 @@
-import Routing from '../src/index.js'
+import AjaxForm from '../src/index.js'
 
-export default Routing
+export default AjaxForm
