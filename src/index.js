@@ -4,8 +4,6 @@ export default function (Alpine) {
             return;
         }
 
-        console.log("Log twice ?")
-
         el.addEventListener('submit', (event) => {
             // cancel normal submit
             event.preventDefault();

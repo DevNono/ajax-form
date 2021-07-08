@@ -17,7 +17,6 @@ function src_default(Alpine) {
     if (el.nodeName != "FORM") {
       return;
     }
-    console.log("Log twice ?");
     el.addEventListener("submit", (event) => {
       event.preventDefault();
       var formData = new FormData(el);
